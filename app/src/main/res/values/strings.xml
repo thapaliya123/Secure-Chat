@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SecureChatting</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text_1">REQUESTS</string>
+    <string name="tab_text_2">CHAT</string>
+    <string name="tab_text_3">FRIEND</string>
+    <string name="this_is_chat_fragment">This is chat fragment</string>
+    <string name="this_is_friend_fragment">This is friend fragment</string>
+    <string name="this_is_request_fragment">This is request fragment</string>
+    <string name="textview">Display Name</string>
+    <string name="textview1">Hi,i am using secure chat app</string>
+    <string name="button">CHANGE IMAGE</string>
+    <string name="button1">CHANGE STATUS</string>
+
+</resources>

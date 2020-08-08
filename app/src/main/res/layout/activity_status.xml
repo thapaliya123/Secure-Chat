@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StatusActivity">
+
+    <include
+        android:id="@+id/settings1_status_toolbar"
+        layout="@layout/app_bar_layout" />
+
+    <EditText
+        android:id="@+id/status_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="127dp"
+        android:ems="10"
+        android:hint="Status"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/status_save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/status_input"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="191dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="SAVE CHANGES"
+        android:textColor="@android:color/background_light" />
+</RelativeLayout>
